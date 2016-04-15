@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Yahoo!</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="./Yahoo.css">
+		
+	</head>
+	<body>
+		<div id="top" class="navbar navbar-fixed-top" >
+			<nav class="top_title  nav navbar-default">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">首頁</a>
+					</div>
+					<div class="collapse navbar-collapse" id="myNavbar">
+						<ul class="nav navbar-nav">
+							<li><a data-toggle="tab" href="#home">信箱</a></li>
+							<li><a data-toggle="tab" href="#menu1">新聞</a></li>
+							<li><a data-toggle="tab" href="#menu2">股市</a></li>
+							<li><a data-toggle="tab" href="#menu1">氣象</a></li>
+							<li><a data-toggle="tab" href="#menu1">運動</a></li>
+							<li><a data-toggle="tab" href="#menu1">影音</a></li>
+							<li><a data-toggle="tab" href="#menu1">娛樂</a></li>
+							<li><a data-toggle="tab" href="#menu1">購物中心</a></li>
+							<li><a data-toggle="tab" href="#menu1">商城</a></li>
+							
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<div class="row top_title2 clear">
+				<img src="./img/yahoologo.png" height="60px">
+				<div class="top_title2_sr">
+					<input type="text" class="form-control" placeholder="">
+					<button class="btn btn-default" type="button">搜尋</button>
+				</div>
+				<div class="top_title2_btn">
+					<span class="btn glyphicon glyphicon-cloud">桃園</span>
+					<span class="btn glyphicon glyphicon-user">登入</span>
+					<span class="btn glyphicon glyphicon-envelope">信箱</span>
+				</div>
+			</div>
+			<div class="row">
+				<div id="hot_sr">
+					<span>熱門：</span>
+					<a href="">中頭獎領終身</a>
+					<a href="">女神林明禎</a>
+					<a href="">反手塗口紅</a>
+					<a href="">劉亦菲傳分手</a>
+				</div>
+			</div>
+		</div>
+		<div id="main" class="clear row">
+			<div id="main_left" class="clear">
+				<img src="./img/e3ba81a0-f97c-11e5-8e69-7be81fd86ff8_20160405-14-1200vdm.jpg" width="140px;">
+				<div class="main_left_ul clear">
+					<div class="main_left_ul_1">
+						<ul>
+							<li><a href="">新聞</a></li>
+							<li><a href="">股市</a></li>
+							<li><a href="">理財</a></li>
+							<li><a href="" >運動</a></li>
+							<li><a href="" style="color:red">名人娛樂</a></li>
+							<li><a href="">電視</a></li>
+							<li><a href="">影音</a></li>
+							<li><a href="">音樂</a></li>
+							<li><a href="">遊戲</a></li>
+							<li><a href="">婚戀</a></li>
+							<li><a href="">flickr</a></li>
+							<li><a href="">字典</a></li>
+							<li><a href="">知識+</a></li>
+							<li><a href="">信箱</a></li>
+							<li><a href="">氣象</a></li>
+							<li><a href="">ATM</a></li>
+							<li><a href="">公益+</a></li>
+							<li><a href="">找店</a></li>
+							<li><a href="">全部服務</a></li>
+						</ul>
+					</div>
+					<div class="main_left_ul_2">
+						<ul>
+							<li><a href="" style="color:red">拍賣</a></li>
+							<li><a href="">超級商城</a></li>
+							<li><a href="">購物中心</a></li>
+							<li><a href="">服務＋</a></li>
+							<li><a href="">大團購</a></li>
+							<li><a href="">折扣城</a></li>
+							<li><a href="">3C科技</a></li>
+							<li><a href="" style="color:red">時尚美妝</a></li>
+							<li><a href="">汽車機車</a></li>
+							<li><a href="">房地產</a></li>
+							<li><a href="">旅遊</a></li>
+							<li><a href="">健康</a></li>
+							<li><a href="" style="color:red">星座算命</a></li>
+							<li><a href="">APP下載</a></li>
+							<li><a href="">網路開店</a></li>
+							<li><a href="" style="color:red">買關鍵字</a></li>
+							<li><a href="">網路行銷</a></li>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="main_center">
+				<div class="main_center_news">
+					<ul class="nav nav-tabs main_center_news_tab" style="background-color:#e6e6e6">
+						<li><a data-toggle="tab" href="#home">焦點</a></li>
+						<li><a data-toggle="tab" href="#menu1">運動</a></li>
+						<li><a data-toggle="tab" href="#menu2">娛樂</a></li>
+						<li><a data-toggle="tab" href="#menu1">FUN</a></li>
+						<li><a data-toggle="tab" href="#menu2">生活</a></li>
+					</ul>
+					<div class="tab-content clear">
+						<div id="home" class="tab-pane fade in active">
+							<img src="./img/20160328-032040_U4040_M142180_2203.jpg" width="250px;">
+							<div class="main_center_news_span">
+								<span><a href="">張大千「桃源圖」11億元成交</a> </span>
+								<p>在香港拍出，創個人作品拍賣紀錄，買家是劉...</p>
+								<span><a href="">遭劈腿罹精神病 強制就醫更慘</a> </span>
+								<p>母帶她回家休養，拜託每戶鄰居包容，病情開...</p>
+								<span><a href="">周旋3男猝死 男友們哭成一團</a> </span>
+								<p>三人現身警局才知彼此存在，原來是越南女子...</p>
+							</div>
+						</div>
+						<div id="menu1" class="tab-pane fade">
+							<img src="./img/fafa549ab2fa43fe9f2322ba107dcada.jpg" width="250px;">
+							<div class="main_center_news_span">
+								<span><a href="">老天爺不賞臉 神之子延賽了</a> </span>
+								<p>紐約不僅雨勢不斷，而且天氣嚴寒，因此決...</p>
+								<span><a href="">連29局無失分！ 阿瑞塔好威</a> </span>
+								<p>前1天還表示，自己今年成績可能不如去年的上...</p>
+								<span><a href="">不朽戰神！AI五大經典時刻</a> </span>
+								<p>Michael Jordan無懈可擊的防守身手，證明...</p>
+							</div>
+						</div>
+						<div id="menu2" class="tab-pane fade">
+							<img src="./img/4fb20ec0-fafc-11e5-8dfd-471d052286fa_201211160122000004l.jpg" width="250px;">
+							<div class="main_center_news_span">
+								<span><a href="">騙父母 常見大學生謊言一覽</a> </span>
+								<p>尤其是扯到錢的問題，大家經常不敢說出真實的...</p>
+								<span><a href="">出門叫車 蝙蝠俠竟開超跑來</a> </span>
+								<p>叫的是Toyota，開來的竟然是藍寶堅尼</p>
+								<span><a href="">排隊創意小吃夯 在地人都愛</a> </span>
+								<p>招牌海鮮麵線，一碗可以吃到4種海味.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="main_center_row main_center_row0 clear">
+					<div class="main_center_row0_img">
+						<img src="./img/l_finance_01.jpg">
+						<p><a href="">低利融資大評比</a></p>
+					</div>
+					<div class="main_center_row0_img">
+						<img src="./img/l_finance_02.jpg">
+						<p><a href="">低利融資大評比</a></p>
+					</div>
+					<div class="main_center_row0_img">
+						<img src="./img/l_finance_03.jpg">
+						<p><a href="">低利融資大評比</a></p>
+					</div>
+				</div>
+				<div id="main_center_row1" class="main_center_row main_center_row1 clear">
+					<ul class="nav nav-tabs main_center_news_tab" style="background-color:#e6e6e6">
+						<li><a data-toggle="tab" href="#ccc">焦點</a></li>
+						<li><a data-toggle="tab" href="#bbb">運動</a></li>
+						<li><a data-toggle="tab" href="#aaa">娛樂</a></li>
+						<li><a data-toggle="tab" href="#menu1">FUN</a></li>
+						<li><a data-toggle="tab" href="#menu2">生活</a></li>
+					</ul>
+					<div class="tab-content clear">
+						<div id="ccc" class="tab-pane fade in active">
+							<ul class="main_center_row1_ul clear">
+								<li>
+									<img src="./img/l_finance_02.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+								<li>
+									<img src="./img/l_finance_04.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+								<li>
+									<img src="./img/l_finance_02.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+								<li>
+									<img src="./img/l_finance_04.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+								<li>
+									<img src="./img/l_finance_02.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+								<li>
+									<img src="./img/l_finance_04.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+								<li>
+									<img src="./img/l_finance_02.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+								<li>
+									<img src="./img/l_finance_04.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+								<li>
+									<img src="./img/l_finance_02.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+								<li>
+									<img src="./img/l_finance_04.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+								<li>
+									<img src="./img/l_finance_02.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+								<li>
+									<img src="./img/l_finance_04.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+							</ul>
+						</div>
+						<div id="bbb" class="tab-pane fade">
+							<ul class="main_center_row1_ul clear">
+								<li>
+									<img src="./img/l_finance_02.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+								<li>
+									<img src="./img/l_finance_04.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+								<li>
+									<img src="./img/l_finance_02.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+								<li>
+									<img src="./img/l_finance_04.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+								<li>
+									<img src="./img/l_finance_02.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+								<li>
+									<img src="./img/l_finance_04.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+								<li>
+									<img src="./img/l_finance_02.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+								<li>
+									<img src="./img/l_finance_04.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+								<li>
+									<img src="./img/l_finance_02.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+								<li>
+									<img src="./img/l_finance_04.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+								<li>
+									<img src="./img/l_finance_02.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+								<li>
+									<img src="./img/l_finance_04.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+							</ul>
+						</div>
+						<div id="aaa" class="tab-pane fade">
+							<ul class="main_center_row1_ul clear">
+								<li>
+									<img src="./img/l_finance_02.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+								<li>
+									<img src="./img/l_finance_04.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+								<li>
+									<img src="./img/l_finance_02.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+								<li>
+									<img src="./img/l_finance_04.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+								<li>
+									<img src="./img/l_finance_02.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+								<li>
+									<img src="./img/l_finance_04.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+								<li>
+									<img src="./img/l_finance_02.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+								<li>
+									<img src="./img/l_finance_04.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+								<li>
+									<img src="./img/l_finance_02.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+								<li>
+									<img src="./img/l_finance_04.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+								<li>
+									<img src="./img/l_finance_02.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+								<li>
+									<img src="./img/l_finance_04.jpg" width="100px;">
+									<span>宋慧喬PO照爆料 晉久、金智媛爆紅後態度高傲
+										「喬妹」宋慧喬近日因演出韓劇《太陽的後裔》再度奠定其在韓國演藝圈女神的地位。但貴為女神的她，卻時常在自己的Instagram上傳搞笑照片，惡搞自己，逗得粉絲們哈哈大笑。昨(1)日她又在Instagram上傳了一張搞笑照片，但這次主角不是她自己，而是同劇的演員晉久和金智媛。照片中，晉久看似態度傲慢地正在簽名，並被一群低下頭的人簇擁著，而另一邊的金智媛也是故作一副高高在上的樣子，讓宋慧喬留言寫下「高傲的大英+高傲的明珠？要不要也來做一次簽名這件事呢？！？」
+									</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="main_right">
+				<div class="main_right_row0">
+					<img src="./img/07c0eec0-f696-11e5-b637-a5f6cb3caeef_040416.jpg">
+				</div>
+				<div class="main_right_row main_right_row1">
+					<div>
+						<img src="./img/l_finance_01.jpg" width="100px">
+						<img src="./img/l_finance_03.jpg" width="100px">
+					</div>
+					<div>
+						<img src="./img/l_finance_02.jpg" width="100px">
+						<img src="./img/l_finance_04.jpg" width="100px">
+					</div>
+				</div>
+				<div class="main_right_row main_right_row2">
+					<img src="./img/l_finance_02.jpg" width="70px">
+					<img src="./img/l_finance_04.jpg" width="70px">
+					<img src="./img/l_finance_03.jpg" width="70px">
+				</div>
+				<div class="main_right_row main_right_row3">
+					<img src="./img/e28adc85-640d-44de-9cb4-e1d4b46c5d0e7046299692579699707.gif" width="250px">
+				</div>
+				<div class="main_right_row main_right_row4">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="./img/20160328-032040_U4040_M142180_2203.jpg" class="img-thumbnail"  width="1200" height="700">
+					</div>
+					<div class="item">
+						<img src="./img/ce2082d0-f711-11e5-b592-cf06cb72ae30_2016-03-31_121138.jpg" class="img-thumbnail"  width="1200" height="700">		
+					</div>	
+					<div class="item">
+						<img src="./img/27471a50-f725-11e5-b8e6-6bebb8dcf05d_-.jpg" class="img-thumbnail"  width="1200" height="700">			
+					</div>
+				</div>
+					
+				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>		
+				</a>
+				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				</a>
+			</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+	</body>
+</html>
